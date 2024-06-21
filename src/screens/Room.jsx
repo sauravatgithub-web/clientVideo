@@ -142,7 +142,7 @@ const Room = () => {
                 myStream && (
                 <>
                     <h1>My Stream</h1>
-                    <ReactPlayer height = "300px" width = "500px" url = {myStream} playing/>
+                    <ReactPlayer height = "300px" width = "500px" url = {myStream} playing muted/>
                 </>)
             }   
             {
